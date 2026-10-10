@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Todo CRUD App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <div class="container">
+    <h1>📝 My Todo List</h1>
+    <p class="subtitle">Basic CRUD Project — Create, Read, Update, Delete</p>
+ 
+    <!-- CREATE: for new task addition -->
+    <form id="taskForm">
+      <input type="text" id="taskInput" placeholder="Naveen task lihaa..." required>
+      <button type="submit">Add Task</button>
+    </form>
+ 
+    <!-- READ: all task show here-->
+    <ul id="taskList"></ul>
+  </div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
